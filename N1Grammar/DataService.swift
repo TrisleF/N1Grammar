@@ -15,10 +15,20 @@ class DataService{
         
         do {
             let data = try Data(contentsOf: url)
-            
             let decoder = JSONDecoder()
+            do {
+                let grammarsData = decoder.decode([Grammar], from: data)
+                return grammarsData
+            } catch {
+                print(error)
+            }
             
+        } catch {
+            print(error)
         }
+        
+        //return empty array if code runs to here
+        return [Grammar]()
     }
 }
 

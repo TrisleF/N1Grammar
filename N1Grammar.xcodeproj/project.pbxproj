@@ -14,6 +14,8 @@
 		A07BA2F22C99BCCA00FFF4C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07BA2F12C99BCCA00FFF4C5 /* Preview Assets.xcassets */; };
 		A07BA2F92C99BCE600FFF4C5 /* GrammarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BA2F82C99BCE600FFF4C5 /* GrammarModel.swift */; };
 		A07BA2FB2C99BD2C00FFF4C5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BA2FA2C99BD2C00FFF4C5 /* DataService.swift */; };
+		A07BA2FD2C9B03A300FFF4C5 /* N1GrammarData.json in Resources */ = {isa = PBXBuildFile; fileRef = A07BA2FC2C9B03A300FFF4C5 /* N1GrammarData.json */; };
+		A07BA2FF2C9B03E800FFF4C5 /* GrammarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BA2FE2C9B03E800FFF4C5 /* GrammarType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		A07BA2F12C99BCCA00FFF4C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A07BA2F82C99BCE600FFF4C5 /* GrammarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarModel.swift; sourceTree = "<group>"; };
 		A07BA2FA2C99BD2C00FFF4C5 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A07BA2FC2C9B03A300FFF4C5 /* N1GrammarData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N1GrammarData.json; sourceTree = "<group>"; };
+		A07BA2FE2C9B03E800FFF4C5 /* GrammarType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +65,11 @@
 				A07BA2EA2C99BCC900FFF4C5 /* ContentView.swift */,
 				A07BA2EC2C99BCC900FFF4C5 /* Item.swift */,
 				A07BA2EE2C99BCCA00FFF4C5 /* Assets.xcassets */,
+				A07BA2FC2C9B03A300FFF4C5 /* N1GrammarData.json */,
 				A07BA2F02C99BCCA00FFF4C5 /* Preview Content */,
 				A07BA2F82C99BCE600FFF4C5 /* GrammarModel.swift */,
 				A07BA2FA2C99BD2C00FFF4C5 /* DataService.swift */,
+				A07BA2FE2C9B03E800FFF4C5 /* GrammarType.swift */,
 			);
 			path = N1Grammar;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			files = (
 				A07BA2F22C99BCCA00FFF4C5 /* Preview Assets.xcassets in Resources */,
 				A07BA2EF2C99BCCA00FFF4C5 /* Assets.xcassets in Resources */,
+				A07BA2FD2C9B03A300FFF4C5 /* N1GrammarData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A07BA2EB2C99BCC900FFF4C5 /* ContentView.swift in Sources */,
+				A07BA2FF2C9B03E800FFF4C5 /* GrammarType.swift in Sources */,
 				A07BA2F92C99BCE600FFF4C5 /* GrammarModel.swift in Sources */,
 				A07BA2ED2C99BCC900FFF4C5 /* Item.swift in Sources */,
 				A07BA2E92C99BCC900FFF4C5 /* N1GrammarApp.swift in Sources */,
